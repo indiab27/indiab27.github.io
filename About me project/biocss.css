@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    background-color: rgb(255, 248, 238) !important;
+}
+
+
+.bio-wrapper {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #c9e8f0;
+}
+
+.bio-container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.bio-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Image Block */
+.bio-image-block {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.bio-profile-pic {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0e0e0e;
+}
+
+/* Text Block */
+.bio-text-block {
+  flex: 1 1 500px;
+}
+
+.bio-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.bio-description {
+  font-size: 18px;
+  color: #002853;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .bio-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bio-text-block {
+    align-items: center;
+    justify-content: center;
+  }
+}

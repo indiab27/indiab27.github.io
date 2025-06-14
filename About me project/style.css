@@ -1,0 +1,80 @@
+h1{
+    font-size: 100px;
+} 
+
+
+header{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+img{
+    padding: 10px;
+    float: left;
+}
+
+p{
+    margin-left: 0px;
+}
+    
+body {
+    padding-left: 25px;
+background-color: #f5eeee !important;
+}
+
+
+.test {
+    margin: 10px;
+    display: flex;
+    border: solid black 2px;
+    border-radius: 25px;
+    flex-direction: horizontal; /* Stack content horizontially */
+   /* justify-content: space-between; */
+    align-items: center;     /* Center horizontally */
+    text-align: center;
+    padding: 5px;
+    width: 1025px;
+    background-color: #e9eef7;
+}
+
+.left-card{
+margin-top: 0px;
+padding-bottom: 150px;
+padding-left: 100px;
+}
+
+test > *{
+    position: relative;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 20px;
+    padding-top: 50px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    opacity: 0.9;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: opacity 0.3s ease, border-color 0.3s ease;
+}
+
+.icon:hover {
+    opacity: 1;
+    border-color: #555; /* or your preferred hover color */
+}
+
+
+
+
+/* #text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+*/
